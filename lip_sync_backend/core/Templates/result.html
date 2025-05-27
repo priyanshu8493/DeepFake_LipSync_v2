@@ -11,6 +11,11 @@
     <p>Image: <img src="{{ req.image.url }}" width="200"/></p>
     <p>Script: {{ req.script }}</p>
 
+    <p>Output Video:</p>
+    <video src="{{ req.video.url }}" width="300" controls></video>
+    <a href="{{ req.video.url }}" download>Download Video</a>
+
+
     
 </body>
 </html>
